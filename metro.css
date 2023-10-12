@@ -1,0 +1,24 @@
+body {
+  height: 2500px;
+}
+
+.image-link-container {
+  display: none;
+}
+
+.hover-area-metro:hover {
+  display: block;
+}
+.hover-area-metro {
+  padding-left: 20em;
+  padding-top: 20em;
+  color: white;
+}
+#scrollPosition {
+  position: fixed;
+  padding-top: 900px;
+  padding-left: 1400px;
+}
+.bench {
+  padding-top: 900px;
+}

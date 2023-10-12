@@ -1,0 +1,50 @@
+/* Initially, hide the image container */
+.image-link-container {
+  display: none;
+}
+.hover-area-door-to-out {
+  color: white;
+}
+/* When hovering over the hover area, display the image */
+.hover-area-door-to-out:hover .image-link-container {
+  display: block;
+}
+.hover-area-door-to-in {
+  color: white;
+  padding-left: 20em;
+  padding-top: 10em;
+}
+/* When hovering over the hover area, display the image */
+.hover-area-door-to-in:hover .image-link-container {
+  display: block;
+}
+
+.hover-area-metro {
+  padding-left: 20em;
+  padding-top: 20em;
+  color: white;
+}
+/* When hovering over the hover area, display the image */
+.hover-area-metro:hover .image-link-container {
+  display: block;
+}
+
+.hover-area-door-to-bathroom {
+  padding-left: 20em;
+  padding-top: 20em;
+  color: white;
+}
+/* When hovering over the hover area, display the image */
+.hover-area-door-to-bathroom:hover .image-link-container {
+  display: block;
+}
+
+.toothbrush {
+  padding-top: 400px;
+  padding-left: 300px;
+}
+
+.toothbrush:hover {
+  padding-top: 400px;
+  transform: translateX(30px);
+}

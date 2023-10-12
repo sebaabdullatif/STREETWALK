@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="metro.css" />
+    <title>METRO</title>
+  </head>
+  <body>
+    <div id="scrollPosition">0 miles</div>
+    <script>
+      let scrollPositionElement = document.getElementById("scrollPosition");
+      function updateScrollPosition() {
+        const scrollY = window.scrollY;
+        scrollPositionElement.textContent = ` ${scrollY} miles`;
+      }
+
+      window.addEventListener("scroll", updateScrollPosition);
+    </script>
+    <div class="seats"><img src="seats.png" alt="HTML tutorial" /></div>
+    <script>
+      function autoScroll() {
+        if (window.scrollY >= 300) {
+          window.scrollTo({
+            top: 2000,
+            behavior: "smooth",
+          });
+        }
+      }
+
+      window.addEventListener("scroll", autoScroll);
+    </script>
+
+    <div class="bench"><img src="bench.png" alt="HTML tutorial" /></div>
+  </body>
+</html>
