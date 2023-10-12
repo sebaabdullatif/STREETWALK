@@ -12,7 +12,7 @@
 .hover-area-door-to-in {
   color: white;
   padding-left: 20em;
-  padding-top: 10em;
+  padding-top: 20em;
 }
 /* When hovering over the hover area, display the image */
 .hover-area-door-to-in:hover .image-link-container {
@@ -21,7 +21,7 @@
 
 .hover-area-metro {
   padding-left: 20em;
-  padding-top: 20em;
+  padding-top: 10em;
   color: white;
 }
 /* When hovering over the hover area, display the image */
@@ -30,7 +30,7 @@
 }
 
 .hover-area-door-to-bathroom {
-  padding-left: 20em;
+  padding-left: 50em;
   padding-top: 20em;
   color: white;
 }
